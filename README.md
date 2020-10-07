@@ -1,2 +1,2 @@
-## 사용 의존성
-thymeleaf 템플릿
+## 브랜치 정보
+- v.1.0.1 : MVC and Template Tu torial
