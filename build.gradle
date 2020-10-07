@@ -1,0 +1,27 @@
+plugins {
+	id 'org.springframework.boot' version '2.3.4.RELEASE'
+	id 'io.spring.dependency-management' version '1.0.10.RELEASE'
+	id 'java'
+}
+
+group = 'practice'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '13'
+
+/* 의존성 다운로드 경로 설정 mavenCentral*/
+repositories {
+	mavenCentral()
+}
+
+/*의존성 주입*/
+dependencies {
+	implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
+	implementation 'org.springframework.boot:spring-boot-starter-web'
+	testImplementation('org.springframework.boot:spring-boot-starter-test') {
+		exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
+	}
+}
+
+test {
+	useJUnitPlatform()
+}
