@@ -1,8 +1,7 @@
 ## 브랜치 정보
 - v.1.0.1 : MVC and Template Tutorial
 - v.1.0.2 : What is API : RequestBody (JSON)
-- v.1.0.3 : Simple Web Application
-- v.1.0.4 : Create Rpository and Test case
+- v.1.0.3 : Create Repository and Test case
 
 ## Spring MVC
 - Controller : 웹 MVC의 컨트롤러 역할
