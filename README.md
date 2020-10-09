@@ -24,11 +24,12 @@
 8. `Controller`는 다시 사용자에게 `응답`하게 되죠.
 
 ##Spring Bean and Dependency Injection
-####The way of registering Spring Bean
+
+###The way of registering Spring Bean
 - `컴포넌트 스캔`(이노테이션설정) 과 `자동 의존관계` 설정
 - `자바코드`로 `직접` 스프링 빈 등록 `@Bean 등록후 return 해당 클래스`
 
-####컴포넌트 스캔과 자동 의존관계 설정
+###컴포넌트 스캔과 자동 의존관계 설정
 - `@Component` : 에노테이션이 있으면 스프링 빈으로 자동 등록한다. (@Controller @Service @Repository 내장)
 - `@Controller` : 컨트롤러가 스프링 빈으로 자동 등록된 이유도 컴포넌트 스캔 떄문이다. 
 - `메인 에플리케이션`의 `패키지 하위` 스캔
