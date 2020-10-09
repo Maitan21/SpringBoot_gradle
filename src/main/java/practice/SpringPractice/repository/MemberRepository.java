@@ -1,5 +1,6 @@
 package practice.SpringPractice.repository;
 
+
 import practice.SpringPractice.domain.Member;
 
 import java.util.List;
