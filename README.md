@@ -6,6 +6,7 @@
 - v.1.0.2 : What is API : RequestBody (JSON)
 - v.1.0.3 : Create Repository and Test case
 - v.1.0.4 : Spring Bean and Component Scan
+- v.1.0.5 : Simple WEB MVC (regist and inquiry)
 
 ## Spring MVC
 - Controller : 웹 MVC의 컨트롤러 역할
